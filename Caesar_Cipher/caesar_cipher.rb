@@ -1,3 +1,11 @@
+# Implement a caesar cipher that takes in a string and the shift factor 
+# and then outputs the modified string: "Bmfy f xywnsl!"
+#
+# - You will need to remember how to convert a string into a number.
+# - Don’t forget to wrap from z to a.
+# - Don’t forget to keep the same case.
+
+
 def ciphered(string, shift=6)
 
     # VARIABLE DEFINITIONS
@@ -29,4 +37,5 @@ def ciphered(string, shift=6)
     ciphered_string # to return it
 end
     
-ciphered("! abc gHi 3 z", -2) # to do it
+ciphered("What a string!", 5) # to do it
+#should return: "Bmfy f xywnsl!"
